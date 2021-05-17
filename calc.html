@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calc.js"></script>
+    <style>
+        h1{
+            text-align : center ;
+            background-color: rgb(209, 128, 23);
+            color: rgb(26, 3, 3);
+        }
+        body{
+             background-color: rgb(161, 159, 29);
+        }
+    </style>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <br><br>
+        Enter no 1 : <input id="n1"><br><br>
+        Enter no 2 : <input id="n2"><br><br>
+        <select id="opt">
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="%">%</option>
+        </select>
+        <button onclick="callfunction()">=</button><br>
+    <div id="res"></div><br><br>
+</body>
+</html>
